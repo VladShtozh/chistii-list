@@ -3,7 +3,7 @@
     url(fonts\ebgaramondregular.woff2) format('woff2'),
     url(fonts\ebgaramondregular.woff2) format('woff2'),
     url(fonts\ebgaramondregular.ttf) format('truetype');
-    font-family: "EB Garmond";
+    font-family: "EB Garamond";
     font-weight: 400;
     font-display: swap;
 }
@@ -13,7 +13,7 @@
     url(fonts\ebgaramondmedium.woff2) format('woff2'),
     url(fonts\ebgaramondmedium.woff2) format('woff2'),
     url(fonts\ebgaramondmedium.ttf) format('truetype');
-    font-family: "EB Garmond";
+    font-family: "EB Garamond";
     font-weight: 500;
     font-display: swap;
 }
