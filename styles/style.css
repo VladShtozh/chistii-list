@@ -1,6 +1,5 @@
 * {
     font-family: "Inter", Georgia, 'Times New Roman', Times, serif ;
-    color: white;
 } 
 
 body {
@@ -15,7 +14,40 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .header {
     display: flex;
+    padding: 24px 20px;
+    background-color: #131313;
+    color: white;
 }
+
 .content-section {
     width: 360px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+    background-color: #131313;
+    color: white;
+}
+
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    color: #131313;
+}
+
+.cover {
+    background-image: url("./images/cover.svg");
+    padding: 30px 21px 0px 30px;
+}
+
+.intro {
+    padding: 0px 20px 38px;
+}
+
+.reasons {
+    padding: 40px 20px 40px;
+}
+
+.how-to {
+    padding: 20px 40px 60px;
 }
