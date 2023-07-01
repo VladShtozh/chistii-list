@@ -69,11 +69,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
 
 .cover__title {
     color: #FFF;
+    font-size: 72px;
 }
 
 .accent-span {
     display: block;
-    font-size: 72px;
     font-family: "EB Garamond";
     font-style: normal;
     font-weight: 400;
@@ -114,12 +114,112 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
     font-style: normal;
     font-weight: 400;
     line-height: 21.6px;
+    margin-top: 24px;
 }
 
 .reasons {
     padding: 40px 20px 40px;
 }
 
+.content-section__subtitle {
+    font-size: 28px;
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+    margin-bottom: 32px;
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.content-section__list {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;padding-left: 20px;
+}
+
+.content-section__list-item {
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    line-height: 21.6px;        
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+}
+
 .how-to {
-    padding: 20px 40px 60px;
+   padding: 40px 20px 60px 20px;
+}
+
+.cards-list {
+    list-style: none;
+}   
+
+.card_theme_dark {
+    background: var(--gray-bg, #343434);
+}
+
+.card_theme_bright {
+    background: var(--yellow-bg, #FEE42A);
+    color: var(--black-bg, #131313);
+}
+
+.card {
+    margin-top: 32px;
+    display: flex;
+    width: 319px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.card__author {
+    
+}
+
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.card__author-name {
+    margin-top: 8px;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+}
+
+.card__content {
+    margin-top: 8px;
+}
+
+.card__title {
+    font-size: 22px;
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+}
+
+.card__text {
+    margin-top: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+
 }
