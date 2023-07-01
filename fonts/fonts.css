@@ -1,8 +1,8 @@
 @font-face {
     src: 
-    url(fonts\ebgaramondregular.woff2) format('woff2'),
-    url(fonts\ebgaramondregular.woff2) format('woff2'),
-    url(fonts\ebgaramondregular.ttf) format('truetype');
+    url(./ebgaramondregular.woff2) format('woff2'),
+    url(./ebgaramondregular.woff2) format('woff2'),
+    url(./ebgaramondregular.ttf) format('truetype');
     font-family: "EB Garamond";
     font-weight: 400;
     font-display: swap;
@@ -10,9 +10,9 @@
 
 @font-face {
     src: 
-    url(fonts\ebgaramondmedium.woff2) format('woff2'),
-    url(fonts\ebgaramondmedium.woff2) format('woff2'),
-    url(fonts\ebgaramondmedium.ttf) format('truetype');
+    url(./ebgaramondmedium.woff2) format('woff2'),
+    url(./ebgaramondmedium.woff2) format('woff2'),
+    url(./ebgaramondmedium.ttf) format('truetype');
     font-family: "EB Garamond";
     font-weight: 500;
     font-display: swap;
@@ -20,9 +20,9 @@
 
 @font-face {
     src: 
-    url(fonts\interregular.woff2) format('woff2'),
-    url(fonts\interregular.woff2) format('woff2'),
-    url(fonts\interregular.ttf) format('truetype');
+    url(./interregular.woff2) format('woff2'),
+    url(./interregular.woff2) format('woff2'),
+    url(./interregular.ttf) format('truetype');
     font-family: "Inter";
     font-weight: 400;
     font-display: swap;
@@ -30,9 +30,9 @@
 
 @font-face {
     src: 
-    url(fonts\interbold.woff2) format('woff2'),
-    url(fonts\interbold.woff2) format('woff2'),
-    url(fonts\interbold.ttf) format('truetype');
+    url(./interbold.woff2) format('woff2'),
+    url(./interbold.woff2) format('woff2'),
+    url(./interbold.ttf) format('truetype');
     font-family: "Inter";
     font-weight: 700;
     font-display: swap;
